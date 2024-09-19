@@ -1,0 +1,80 @@
+{
+    "ccleaner": {
+        "name": "CCleaner",
+        "url": "https://download.ccleaner.com/ccsetup.exe",
+        "filename": "ccsetup.exe",
+        "silent_args": "/S",
+        "type": "install"
+    },
+    "7zip": {
+        "name": "7-Zip",
+        "url": "https://www.7-zip.org/a/7z2201-x64.exe",
+        "filename": "7z2201-x64.exe",
+        "silent_args": "/S",
+        "type": "install"
+    },
+    "notepadplusplus_portable": {
+        "name": "Notepad++ Portable",
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.4/npp.8.5.4.portable.x64.zip",
+        "filename": "npp.8.5.4.portable.x64.zip",
+        "type": "portable_zip",
+        "extract_dir": "Notepad++"
+    },
+    "adwcleaner_portable": {
+        "name": "Adwcleaner",
+        "url": "https://adwcleaner.malwarebytes.com/adwcleaner?channel=release",
+        "type": "portable_exe",
+        "filename": "adwcleaner.exe",
+        "extract_dir": "Adwcleaner"
+    },
+    "malwarebytes": {
+        "name": "Malwarebytes",
+        "url": "https://downloads.malwarebytes.com/file/mb5_offline",
+        "filename": "mb4_offline.exe",
+        "silent_args": "/VERYSILENT /NORESTART",
+        "type": "install"
+    },
+    "avast": {
+        "name": "Avast Free Antivirus",
+        "url": "https://www.avast.com/en-us/download-thank-you.php?product=FAV-AVAST&locale=en-us&direct=1",
+        "filename": "avast_free_antivirus_setup_online.exe",
+        "silent_args": "/silent",
+        "type": "install"
+    },
+    "bitdefender": {
+        "name": "Bitdefender Antivirus Free",
+        "url": "https://download.bitdefender.com/windows/installer/en-us/bitdefender_antivirus.exe",
+        "filename": "bitdefender_antivirus.exe",
+        "silent_args": "/SILENT",
+        "type": "install"
+    },
+    "glasswire": {
+        "name": "GlassWire",
+        "url": "https://download.glasswire.com/GlassWireSetup.exe",
+        "filename": "GlassWireSetup.exe",
+        "silent_args": "/S",
+        "type": "install"
+    },
+    "bleachbit": {
+        "name": "BleachBit",
+        "url": "https://download.bleachbit.org/BleachBit-4.6.0-portable.zip",
+        "filename": "BleachBit-4.6.0-portable.zip",
+        "silent_args": "/S",
+        "type": "portable_zip",
+        "extract_dir": "Bleachbit"
+    },
+    "windirstat": {
+        "name": "WinDirStat",
+        "url": "https://windirstat.net/wds_current_setup.exe",
+        "filename": "wds_current_setup.exe",
+        "silent_args": "/S",
+        "type": "install"
+    },
+    "autoruns_portable": {
+        "name": "Autoruns",
+        "url": "https://download.sysinternals.com/files/Autoruns.zip",
+        "filename": "Autoruns.zip",
+        "type": "portable_zip",
+        "extract_dir": "Autoruns"
+    }
+}
