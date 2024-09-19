@@ -19,7 +19,7 @@ class NiniteLike:
         self.load_apps_from_github()
 
     def load_apps_from_github(self):
-        github_raw_url = "https://raw.githubusercontent.com/yourusername/yourrepository/main/apps.json"
+        github_raw_url = "https://raw.githubusercontent.com/Parcothsai/ninitelike/main/apps.json"
         try:
             response = requests.get(github_raw_url)
             response.raise_for_status()
