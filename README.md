@@ -20,7 +20,7 @@ Open source ninite like for Windows
 
 ### Release
 
-You can download last release here.
+You can download last release [here](https://github.com/Parcothsai/ninitelike/releases).
 
 ### Build
 
