@@ -107,6 +107,13 @@ class NiniteLike:
                 "filename": "Autoruns.zip",
                 "type": "portable_zip",
                 "extract_dir": "Autoruns"
+            },
+            "superantispyware": {
+                "name": "superantispyware",
+                "url": "https://secure.superantispyware.com/SUPERAntiSpyware.exe",
+                "filename": "SUPERAntiSpyware.exe",
+                "silent_args": "/S",
+                "type": "install"
             }
         }
 
