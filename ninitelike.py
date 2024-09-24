@@ -112,7 +112,7 @@ class NiniteLike:
                 "name": "superantispyware",
                 "url": "https://secure.superantispyware.com/SUPERAntiSpyware.exe",
                 "filename": "SUPERAntiSpyware.exe",
-                "silent_args": "/S",
+                "silent_args": "/SILENT /ALLUSERS",
                 "type": "install"
             }
         }
